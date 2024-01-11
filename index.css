@@ -1,0 +1,40 @@
+.navbar{
+padding-left: 50px;
+padding-right: 50px;
+background-color: #764838;
+}
+
+.navbar-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link{
+    display: flex;
+    padding: 15px;
+    color: #FACA78;
+    font-size: 20px;
+    font-family: "poppins";
+}
+
+.hero{
+    background-color: #FACA78;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero img{
+    position: relative;
+    top: 33px;
+    right: 80px;
+    height: 474px;
+    width: 445px;    
+}
+
+.hero h1, p{
+    padding-left: 200px;
+}
